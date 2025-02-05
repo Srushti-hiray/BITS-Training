@@ -6,3 +6,6 @@
  #### 1] Image carousel
  #### 2] drag and drop
  #### 3] js (employee management system, vehicle rental system, online payment system
+### Assignment 3rd
+ #### 1] API request using axions
+ #### 2] Same in To-Do application
