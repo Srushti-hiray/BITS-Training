@@ -9,3 +9,11 @@
 ### Assignment 3rd
  #### 1] API request using axions
  #### 2] Same in To-Do application
+ ### Assignment 4th
+  #### 1] Callback Functions
+  #### 2] Working with Objects
+  #### 3] Analyzing JavaScript Heap Memory
+  #### 4] Working with map(), filter(), and **reduce()
+  #### 5] Callback Functions with map(), filter(), and **reduce()
+ 
+
