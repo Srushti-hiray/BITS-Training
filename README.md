@@ -1,3 +1,5 @@
+
+
 # BITS-Training
 ### Assignment 1st
  #### 1] TO-DO list consisting of add,delete,edit functionalities
@@ -15,5 +17,10 @@
   #### 3] Analyzing JavaScript Heap Memory
   #### 4] Working with map(), filter(), and **reduce()
   #### 5] Callback Functions with map(), filter(), and **reduce()
+ ### Assignment 5th
+ #### develop an ecommerce website using fake store API
+https://github.com/user-attachments/assets/57d9dde1-8bb9-43ef-b831-f191839479ab
+
+
  
 
