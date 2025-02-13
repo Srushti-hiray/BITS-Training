@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+
+    <form id="expenseForm">
+      <input type="number" id="amount" placeholder="Amount" required>
+      <select id="category" required>
+        <option value="" disabled selected>Select Category</option>
+        <option value="Food">Food</option>
+        <option value="Travel">Travel</option>
+        <option value="Bills">Bills</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="date" id="date" required>
+      <input type="text" id="description" placeholder="Description">
+      <button type="submit">Add Expense</button>
+    </form>
+
+    <div class="filters">
+      <select id="filterCategory">
+        <option value="">All Categories</option>
+        <option value="Food">Food</option>
+        <option value="Travel">Travel</option>
+        <option value="Bills">Bills</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Other">Other</option>
+      </select>
+      
+      <h5>From</h5>
+      <input type="date"  id="filterStartDate">
+      <h5>To</h5>
+      <input type="date" id="filterEndDate">
+      <button id="applyFilters">Apply Filters</button>
+    </div>
+
+    <table id="expenseTable">
+      <thead>
+        <tr>
+          <th>Amount</th>
+          <th>Category</th>
+          <th>Date</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody id="expenseBody">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

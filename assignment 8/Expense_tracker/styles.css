@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  input, select, button {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #3498db;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .filters {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .filters select, .filters input {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  #applyFilters {
+    background-color: #27ae60;
+  }
+  
+  #applyFilters:hover {
+    background-color: #219653;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  @media (max-width: 600px) {
+    .filters {
+      flex-direction: column;
+    }
+  
+    input, select, button {
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
