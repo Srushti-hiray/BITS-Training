@@ -20,6 +20,14 @@
  ### Assignment 5th
  #### develop an ecommerce website using fake store API
 https://github.com/user-attachments/assets/57d9dde1-8bb9-43ef-b831-f191839479ab
+### Assignment 6th
+#### 1] Employee Management System
+#### 2] Vehicle Rental System
+#### 3] Online Payment System
+### Assignment 7th
+#### 1] Employee Management System
+#### 2] Quiz App
+
 
 
  
