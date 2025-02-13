@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Quiz Container */
+.quiz-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Question Styling */
+.question {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Answer Choices Styling */
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.choices button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choices button:hover {
+    background-color: #0056b3;
+}
+
+.choices button:active {
+    background-color: #004080;
+}
+
+/* Next Button Styling */
+#next-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#next-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#next-button:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+#next-button:active:not(:disabled) {
+    background-color: #1e7e34;
+}
+
+/* Score Display Styling */
+.score {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .quiz-container {
+        padding: 15px;
+    }
+
+    .question {
+        font-size: 1.2em;
+    }
+
+    .choices button {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    #next-button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .score {
+        font-size: 1em;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question" id="question"></div>
+        <div class="choices" id="choices"></div>
+        <button id="next-button" disabled>Next Question</button>
+        <div class="score" id="score"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
