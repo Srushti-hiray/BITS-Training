@@ -36,3 +36,32 @@ https://github.com/user-attachments/assets/57d9dde1-8bb9-43ef-b831-f191839479ab
 
 ![Screenshot (8)](https://github.com/user-attachments/assets/eae7e711-0dac-415e-9d84-48f67d0d1069)
 ![Screenshot (9)](https://github.com/user-attachments/assets/cce1a45d-dff3-4f3c-89d3-99bcaf64d40e)
+### Assignment 8th
+#### Expense Tracker in TypeScript
+
+An Expense Tracker is a simple application that allows users to log, categorize, and view their expenses. It's a great TypeScript project because it involves working with types, state management, and local storage.
+
+Features:
+
+Add new expenses (amount, category, date, description).
+
+Categorize expenses (Food, Travel, Bills, Shopping, etc.).
+
+View expense history.
+
+Store data in local storage so it persists after refreshing the page.
+
+Filter expenses by category or date range.
+
+![Screenshot (10)](https://github.com/user-attachments/assets/f3944354-8eff-4c2e-9f1b-fe093905ecf3)
+
+#### Add functionality
+![Screenshot (11)](https://github.com/user-attachments/assets/1861ccec-c1e2-4fe3-8e56-74e2caa1e3f3)
+
+
+
+![Screenshot (13)](https://github.com/user-attachments/assets/c690dacb-bf13-495a-a0f3-0f387ea8f157)
+
+#### Filter functionality
+![Screenshot (12)](https://github.com/user-attachments/assets/2ab850df-3f20-4c44-843e-33f588f5fd8d)
+
