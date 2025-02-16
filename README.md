@@ -64,4 +64,7 @@ Filter expenses by category or date range.
 
 #### Filter functionality
 ![Screenshot (12)](https://github.com/user-attachments/assets/2ab850df-3f20-4c44-843e-33f588f5fd8d)
-
+ ### Assignment 9th
+ #### develop an ecommerce website using fake store API(using typescript)
+ User interface as a assignment no.5
+ 
