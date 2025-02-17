@@ -64,7 +64,22 @@ Filter expenses by category or date range.
 
 #### Filter functionality
 ![Screenshot (12)](https://github.com/user-attachments/assets/2ab850df-3f20-4c44-843e-33f588f5fd8d)
+
  ### Assignment 9th
  #### develop an ecommerce website using fake store API(using typescript)
  User interface as a assignment no.5
  
+ ### Assignment 10th
+ Create a from component in react,The form should contain:
+First Name (Text Input)
+Last Name (Text Input)
+Age (Number Input)
+Gender (Radio Buttons)
+Skills (Select Dropdown)
+Email (Text Input)
+Phone Number (Number Input)
+Address (Text Area)
+
+ ![Screenshot (22)](https://github.com/user-attachments/assets/13452c9e-8977-4044-a6ad-9ba2ac36116c)
+
+![Screenshot (23)](https://github.com/user-attachments/assets/1e97895f-5e75-4b1f-85ca-1f192290cbdb)
