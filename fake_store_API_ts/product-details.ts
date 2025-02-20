@@ -1,3 +1,5 @@
+
+
 interface Product {
     id: number;
     title: string;
@@ -6,6 +8,7 @@ interface Product {
     description: string;
     image: string;
     quantity?: number;
+    
 }
 
 document.addEventListener('DOMContentLoaded', () => {
