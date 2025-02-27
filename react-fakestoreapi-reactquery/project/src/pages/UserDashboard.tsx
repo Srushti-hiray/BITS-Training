@@ -42,7 +42,6 @@ const UserDashboard = () => {
 
   });
 
-
   React.useEffect(() => {
     if (products.length > 0) {
       dispatch({ type: 'SET_PRODUCTS', payload: products });

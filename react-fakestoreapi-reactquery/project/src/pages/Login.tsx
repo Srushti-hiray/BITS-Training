@@ -15,7 +15,7 @@ const Login = () => {
     setError('');
 
     try {
-      // Check for admin credentials first
+      
       if (username === 'srushti' && password === 'sru$123') {
         dispatch({
           type: 'SET_USER',
@@ -25,7 +25,7 @@ const Login = () => {
         return;
       }
 
-      // For regular users, attempt API login
+      
       await login(username, password);
       dispatch({
         type: 'SET_USER',
